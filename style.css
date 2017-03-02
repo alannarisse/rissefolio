@@ -1,5 +1,5 @@
 /*
-Theme Name: Alanna Art Portfolio
+Theme Name: Rissefolio
 Theme URI: http://alannarisse.com/
 Author: Alanna Risse
 Author URI: http://alannarisse.com
@@ -13,7 +13,7 @@ Tags: white, accessability ready
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Alanna Art Portfolio is created by the theme generator at http://components.underscores.me/, (C) 2015-2016 Automattic, Inc.
+Rissefolio is created by the theme generator at http://components.underscores.me/, (C) 2015-2016 Automattic, Inc.
 Components is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -43,6 +43,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
   ## Galleries
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -1083,7 +1090,6 @@ body {
     .content-area {
       float: left;
       margin: 0 -25% 0 0;
-      width: 100%;
     }
 
     .site-main {
@@ -1093,7 +1099,7 @@ body {
     .site-content .widget-area {
       float: right;
       overflow: hidden;
-      width: 25%;
+      width: 300px;
     }
 
     .site-footer {
@@ -1718,7 +1724,6 @@ header a, header a:hover, header a:focus, header a:visited { color:#ccc; }
   line-height: 1em;
   text-align: left;
   color: #990000;
-  width:75%;
 }
 
 @media screen and (min-width: 40em) {
@@ -1904,7 +1909,6 @@ header a, header a:hover, header a:focus, header a:visited { color:#ccc; }
   .deck,
   .entry-content {
     padding: 0 1em;
-    width:75%;
   }
 }
 

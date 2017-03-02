@@ -14,7 +14,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+<div class="row">
+	<div id="primary" class="span8 content-area">
 		<main id="main" class="site-main" role="main">
 
 			<?php
@@ -32,6 +33,8 @@ get_header(); ?>
 
 		</main>
 	</div>
-<?php
-get_sidebar();
-get_footer();
+	<div class="span8">
+		<?php get_sidebar(); ?>
+	</div>
+</div>
+<?php get_footer();
